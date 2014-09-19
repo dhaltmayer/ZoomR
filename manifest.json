@@ -1,7 +1,7 @@
 {
 	"manifest_version" : 2,
 	"name": "ZoomR",
-	"version": "0.1",
+	"version": "0.1.5",
 	"author": "David H. Altmayer",
 	"minimum_chrome_version": "39",
 	
