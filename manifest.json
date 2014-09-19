@@ -1,0 +1,15 @@
+{
+	"manifest_version" : 2,
+	"name": "ZoomR",
+	"version": "0.1",
+
+	"description": "Zoom in on articles.",
+	"content_scripts" : [{
+		"matches": ["http://*/*"],
+		"js": ["content.js"]
+		}],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [ "tabs", "contextMenus"]
+}
